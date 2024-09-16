@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+.footer {
+    display: flex;
+    width: 99%;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+}
+
+.left h4 {
+    color: #de2360;
+}
+
+.left img {
+    width: 150px;
+
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    justify-content: center;
+}
+
+.center h2 {
+    font-family: "Pacifico", cursive;
+    font-size: 20px;
+    color: #de2360;
+}
+
+.center h3 {
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+.center .heart {
+    color: purple;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+
+.right h4 {
+    color: #de2360;
+}
+
+.right a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 885px) {
+    .left h4 {
+        font-size: 14px;
+    }
+
+    .right h4 {
+        font-size: 14px;
+    }
+
+    .right a {
+        font-size: 14px;
+    }
+
+    .left img {
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    .footer {
+        flex-direction: column-reverse;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .left h4 {
+        display: none;
+    }
+
+    .left img {
+        display: none;
+    }
+
+    .center h2 {
+        font-size: 18px;
+    }
+
+    .right h4 {
+        display: none;
+    }
+
+    .right a {
+        display: none;
+    }
+}

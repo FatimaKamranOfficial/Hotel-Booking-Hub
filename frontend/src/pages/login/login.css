@@ -1,0 +1,91 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+.loginc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    gap: 60px;
+
+}
+
+.lcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-top: 20px;
+}
+
+.lcontainer span {
+    margin-top: 20px;
+    color: red;
+}
+
+.linput {
+    padding: 5px 5px;
+    margin-bottom: 20px;
+}
+
+.lbutton {
+    width: 80px;
+    padding: 7px 5px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+}
+
+.pic img {
+    height: 300px;
+}
+
+@media screen and (max-width: 1040px) {
+    .loginc {
+        flex-direction: column;
+    }
+
+    .loginc .pic {
+        margin-top: -35px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .login {
+        font-size: 12px;
+    }
+
+    .loginc {
+        width: 325px;
+    }
+
+    .lcontainer {
+        align-items: center;
+        width: 325px;
+
+    }
+
+    .linput {
+        width: 250px;
+    }
+
+    .lcontainer span {
+        width: 250px;
+    }
+
+    .loginc .pic {
+        margin-top: -40px;
+    }
+
+    .pic img {
+        height: 200px;
+    }
+}

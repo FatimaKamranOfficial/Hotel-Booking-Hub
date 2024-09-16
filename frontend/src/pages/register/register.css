@@ -1,0 +1,95 @@
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+.registerc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    gap: 60px;
+    overflow: hidden;
+
+}
+
+.rcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-top: 20px;
+}
+
+.rcontainer span {
+    margin-top: 20px;
+    /* color: red; */
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.rinput {
+    padding: 5px 5px;
+    margin-bottom: 20px;
+}
+
+.regbutton {
+    width: 80px;
+    padding: 7px 5px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.pic img {
+    height: 300px;
+}
+
+@media screen and (max-width: 1040px) {
+    .registerc {
+        flex-direction: column;
+    }
+
+    .registerc .pic {
+        margin-top: -35px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .register {
+        font-size: 12px;
+    }
+
+    .registerc {
+        width: 325px;
+    }
+
+    .rcontainer {
+        align-items: center;
+        width: 325px;
+
+    }
+
+    .rinput {
+        width: 250px;
+    }
+
+    .rcontainer span {
+        width: 250px;
+    }
+
+    .registerc .pic {
+        margin-top: -40px;
+    }
+
+    .pic img {
+        height: 200px;
+    }
+}

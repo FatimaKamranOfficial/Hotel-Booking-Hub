@@ -1,0 +1,120 @@
+.booking {
+    height: 65vh;
+    padding-top: 20px;
+}
+
+h3 {
+    color: #de2360;
+}
+
+.tables {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    border: 1px solid #de2360;
+}
+
+table {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.hotels {
+    width: 500px;
+
+}
+
+.heading {
+    padding-bottom: 15px;
+}
+
+th {
+    font-weight: bold;
+    color: #de2360;
+}
+
+tr {
+    display: flex;
+    flex-direction: column;
+}
+
+td {
+    padding-bottom: 10px;
+}
+
+.citys {
+    text-transform: capitalize;
+}
+
+.bcancel {
+    color: red;
+    background: white;
+    border: 2px solid black;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 1135px) {
+    td {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 995px) {
+    p {
+        font-size: 14px;
+    }
+
+    td {
+        font-size: 12px;
+    }
+
+    .bcancel {
+        height: 15px;
+        font-size: 12px;
+        padding: 8px 6px;
+    }
+}
+
+@media screen and (max-width: 855px) {
+    td {
+        margin-bottom: 20px;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .booking {
+        height: 90vh;
+    }
+
+    .room {
+        /* display: none; */
+    }
+
+    th {
+        height: 30px;
+    }
+
+    td {
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 655px) {
+
+    th {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}

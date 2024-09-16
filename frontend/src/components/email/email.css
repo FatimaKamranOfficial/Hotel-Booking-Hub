@@ -1,0 +1,71 @@
+.mail {
+    width: 90%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #eed6d9;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.mailinputcontainer input {
+    width: 400px;
+    height: 20px;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.mailinputcontainer button {
+    height: 40px;
+    font-weight: 500;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 885px) {
+    .mail {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .mailtitle {
+        text-align: center;
+    }
+
+    .maildesc {
+        text-align: center;
+    }
+
+    .mailinputcontainer input {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .mailinputcontainer {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .mailinputcontainer {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .mailinputcontainer {
+        display: flex;
+    }
+}

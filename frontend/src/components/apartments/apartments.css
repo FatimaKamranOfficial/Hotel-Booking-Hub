@@ -1,0 +1,92 @@
+.apartments {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.apitems {
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.apimg {
+    width: 200px;
+    height: 200px;
+}
+
+.apname {
+    font-weight: bold;
+}
+
+.apcity {
+    font-weight: 300;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+.apprice {
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.aprating button {
+    background-color: #de2360;
+    color: white;
+    border: none;
+    padding: 4px;
+    margin-right: 10px;
+}
+
+.aprating span {
+    font-size: 13px;
+}
+
+@media screen and (max-width: 1060px) {
+
+    .apartments {
+        width: 55rem;
+    }
+
+    .apimg {
+        width: 150px;
+        height: 150px;
+    }
+
+    .apname {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .apartments {
+        width: 50rem;
+    }
+}
+
+@media screen and (max-width: 815px) {
+    .apartments {
+        gap: 80px;
+        width: 30rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .apimg {
+        width: 160px;
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .apartments {
+        gap: 80px;
+        width: 100%;
+        flex-direction: row;
+        overflow-x: scroll;
+        flex-wrap: initial;
+    }
+}

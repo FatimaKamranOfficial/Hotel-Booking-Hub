@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.navbar {
+    height: 50px;
+    background-color: #de2360;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.navcontainer {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: "Pacifico", cursive;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.navbutton {
+    margin-left: 20px;
+    border: none;
+    padding: 7px 10px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 1060px) {
+    .logo {
+        margin: 30px;
+    }
+
+    .navbutton {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .navbutton {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .navbutton {
+        margin: 0px 30px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .logo {
+        font-size: 16px;
+    }
+
+    .navitems {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .navbutton {
+        padding: 7px 6px;
+        margin: 0px 10px;
+    }
+
+
+}
+
+@media screen and (max-width: 410px) {
+    .navitems span {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 370px) {
+    .logo {
+        font-size: 16px;
+        margin: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 345px) {
+    .navbutton {
+        padding: 5px 5px;
+        margin: 0px 6px;
+    }
+
+    .logo {
+        font-size: 15px;
+        margin: 7px;
+    }
+}

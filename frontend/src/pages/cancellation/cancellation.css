@@ -1,0 +1,34 @@
+.cancelc {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    text-align: center;
+}
+
+.cancelh1 {
+    margin-top: 95px;
+}
+
+.cancelgif {
+    height: 30vh;
+}
+
+.cancelp {
+    margin-bottom: -1px;
+}
+
+@media screen and (max-width: 430px) {
+
+    .cancelc {
+        height: 60vh;
+    }
+
+    .cancelh1 {
+        font-size: 22px;
+    }
+
+    .cancelgif {
+        height: 20vh;
+    }
+}

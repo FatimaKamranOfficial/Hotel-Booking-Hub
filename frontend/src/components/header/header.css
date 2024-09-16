@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+
+.components {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #de2360; */
+    background-color: #f1d3f0;
+    position: relative;
+}
+
+.header {
+    /* background-color: #de2360; */
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+}
+
+.headercontainer {
+    margin: 35px 0px 100px 0px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.headertitle {
+    /* color: #f4ebf0; */
+    color: black;
+    font-family: "Knewave", system-ui;
+}
+
+.userh {
+    /* color: #f4ebf0; */
+    color: black;
+
+}
+
+.headerpara {
+    margin: 20px 0px;
+    /* color: #f4ebf0; */
+    color: black;
+
+}
+
+.headerbtn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.headersearch {
+    height: 30px;
+    background-color: white;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -25px;
+    left: 15rem;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.headericon {
+    color: #de2360;
+}
+
+.headersearchitem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerinput {
+    border: none;
+    outline: none;
+    color: #8a8389;
+}
+
+.headerspan {
+    color: #8a8389;
+    cursor: pointer;
+}
+
+.headerdate {
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+
+.options {
+    position: absolute;
+    top: 50px;
+    background-color: white;
+    color: gray;
+    border: 1px solid black;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.optionitem {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.optionscounter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: black;
+}
+
+.counterbtn {
+    width: 30px;
+    height: 30px;
+    border: 1px solid purple;
+    color: purple;
+    cursor: pointer;
+    background-color: white;
+}
+
+.pic img {
+    height: 13rem;
+    margin-top: 35px;
+}
+
+@media screen and (max-width: 1400px) {
+    .headersearch {
+        left: 175px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .headersearch {
+        left: 135px;
+    }
+}
+
+@media screen and (max-width: 1325px) {
+    .headersearch {
+        left: 265px;
+        width: 50rem;
+    }
+}
+
+@media screen and (max-width: 1235px) {
+    .headersearch {
+        left: 200px;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .headersearch {
+        left: 140px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .headersearch {
+        left: 130px;
+    }
+}
+
+
+@media screen and (max-width: 1040px) {
+    .components {
+        height: 22rem;
+    }
+
+
+    .components .pic {
+        margin-top: 12px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .headersearch {
+        left: 100px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .headersearch {
+        left: 65px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .headersearch {
+        flex-direction: column;
+        height: 7rem;
+        width: 25rem;
+        justify-content: space-between;
+        bottom: -40px;
+    }
+
+    .headersearchitem {
+        margin-bottom: 10px;
+    }
+
+    .headerspan {
+        font-size: 12px;
+    }
+
+    .headerinput {
+        font-size: 11px;
+    }
+
+    .headerbtn {
+        padding: 6px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .components {
+        height: 22rem;
+    }
+
+    .headertitle {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 815px) {
+    .components {
+        height: 20rem;
+    }
+
+    .components .pic img {
+        height: 10rem;
+    }
+
+    .headertitle {
+        font-size: 22px;
+    }
+
+    .userh {
+        font-size: 22px;
+    }
+
+    .headersearch {
+        left: 195px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    .abtn {
+        margin: auto;
+    }
+
+    .components {
+        flex-direction: column;
+        height: 30rem;
+        align-items: center;
+    }
+
+    .components2 {
+        height: 40rem;
+    }
+
+    .header {
+        height: 10rem;
+    }
+
+    .headertitle {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .userh {
+        text-align: center;
+    }
+
+    .headerpara {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .headersearch {
+        left: 45px;
+        width: 20rem;
+        height: 7rem;
+    }
+
+    .components .pic {
+        height: 18rem;
+        margin-top: -110px;
+    }
+
+    .components .pic img {
+        height: 12rem;
+
+    }
+
+}
+
+@media screen and (max-width: 395px) {
+    .headersearch {
+        left: 25px;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .headersearch {
+        left: 40px;
+        width: 18rem;
+    }
+}
+
+
+@media screen and (max-width: 370px) {
+
+    .headersearch {
+        left: 30px;
+        width: 18rem;
+    }
+
+    .userh {
+        font-size: 20px;
+    }
+}

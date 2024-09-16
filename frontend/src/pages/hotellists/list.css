@@ -1,0 +1,108 @@
+.listcontainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.listwrapper {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+}
+
+.listsearch {
+    flex: 1;
+    background-color: #eed6d9;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+    height: max-content;
+}
+
+.lstitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.lsitem {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.lsitem label {
+    font-size: 14px;
+}
+
+.lsitem input {
+    height: 20px;
+    border: none;
+    padding: 5px;
+}
+
+.lsitem span {
+    height: 20px;
+    padding: 5px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.datespan {
+    background-color: white;
+
+}
+
+.lsoptions {
+    padding: 10px;
+}
+
+.lsoptionitem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: gray;
+}
+
+.lsoptext {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.lsopinput {
+    width: 65px;
+}
+
+.lsoptionbutton {
+    padding: 10px;
+    background-color: #de2360;
+    color: white;
+    border: none;
+    width: 100%;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.listresult {
+    flex: 3;
+}
+
+@media screen and (max-width: 1010px) {
+    .listsearch {
+        display: none;
+    }
+
+    .searchItems {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
