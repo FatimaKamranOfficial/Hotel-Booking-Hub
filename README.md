@@ -1,4 +1,7 @@
-Hotel Booking Hub is a full stack MERN Application developed using React JS for the frontend and Node JS, Express JS, Mongoose and MONGO databse for the backend.
+Hotel Booking Hub is a Full Stack MERN Application
+
+Technology used for backend: Node JS, Express JS, Mongoose and MONGO databse
+Technology used for frontend: React, JSX
 
 The backend API is implemented for the following:
 1. User / Admin authorization using bycrypt.js and JSON web token
@@ -15,3 +18,6 @@ The frontend contains the following features:
 6. Email functionality to receive latest offers and updates
 
 The Testing is conducted using Postman application
+The website is fully responsive and deployed on render.com
+
+
